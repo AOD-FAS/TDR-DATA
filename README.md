@@ -13,6 +13,8 @@ processed advantage catalog to track a match rate which can be trended for impro
 Restrictions on access and usage of TDR data cause workadround issueswith.  TDR data can only be stored on the Redshift servers behing the jump host on on a local computer hard drive.  Joining the large XSB enhanced Advantage table to TDR data is diffcult due to it's size and location on the other side of the jump host.
 
 
-#METHODOLOGY:
+METHODOLOGY:
+
+
 
 
