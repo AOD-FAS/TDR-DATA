@@ -10,7 +10,7 @@ There also needs to be a way to "standardize" the TDR data.  The TDR data entrie
 processed advantage catalog to track a match rate which can be trended for improvements and analyized by vendor.
 
 
-Restrictions on access and usage of TDR data cause workadround issueswith.  TDR data can only be stored on the Redshift servers behing the jump host on on a local computer hard drive.  Joining the large XSB enhanced Advantage table to TDR data is diffc fileult due to it's size and location on the other side of the jump host.
+Restrictions on access and usage of TDR data cause work adround issues with it.  TDR data can only be stored on the Redshift servers on the jump host or on a local computer hard drive.  Joining the large XSB enhanced Advantage table to TDR data is diffculte due to it's size and location on the jump host.
 
 
 METHODOLOGY:
