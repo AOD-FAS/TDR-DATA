@@ -27,6 +27,12 @@ Step 3) Create an extract (.hyper) file
 
 Step 4) Copy saved extract to laptop hard drive
 
+Step 6) Run SQL code to get list of all contracts that have transactions in TDR
+        SELECT distinct "contract_id"
+        FROM "tdr"."clean_transactional_sales";
+        
+Step 7)       
+
 
 
 
