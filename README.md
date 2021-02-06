@@ -32,7 +32,13 @@ Step 6) Run SQL code to get list of all contracts that have transactions in TDR:
         SELECT distinct "contract_id"
         FROM "tdr"."clean_transactional_sales";
         
-Step 7)       
+Step 7) In order to reduce the size of the advantage catalog file from XSB, run "Create Reduced ADVANTAGE with just TDR contracts MMDDYYYY.sql" to make a smaller table to join with the TDR data.
+
+Step 8) Open TDR_data_analysis MMDDYYYY.twb and replace data sources with new TDR extract file from step 4 and new New reduced ADV catalog from step 7.
+
+
+
+
 
 
 
