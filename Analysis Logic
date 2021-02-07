@@ -1,1 +1,20 @@
+The completeness mertics deal with Blanks and NULL values entered in TDR data uploads. As of 2019, some value must be entered in all fields for products and all minus Mfr Name and Mfr Part# for services.
+
+While the completeness mertics are objective, the data quality analysis is more subjective.
+
+Quality of data for Desc of Deliverable,Mfr Name, Mfr Part NUmber involves looking at values entered such as:
+  "None"
+  "N/A"
+  " " (Just spaces)
+  "grainger approved"
+  variations of Mfr Names (143 variations exist for 3M)
+  
+  A good indicator of the quality of sold items is seeing if they can be matched up to an item on th eAdvantage catalog.  This is done by Left joining the TDR data table with the reduced advantage catalog on Contract_ID to Contract NUmber and Part Number to Manufacturer Part Number.
+  
+  After joining these two tables, we can see the match rates of the TDR contracts. 
+  
+  A current issues is vendors interchanging contract numbers and BPA's.  This can be found when match rates equal zero for a contract_ID.
+  
+  
+
 
